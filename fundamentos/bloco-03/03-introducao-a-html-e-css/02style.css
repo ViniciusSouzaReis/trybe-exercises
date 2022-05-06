@@ -1,0 +1,33 @@
+div:hover {
+    border: solid 1px red ;
+}
+
+div:nth-of-type(1) {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div:nth-of-type(2) {
+    background-color: purple;
+    font-family: monospace;
+}
+
+div:nth-of-type(3) {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+div:nth-of-type(4) {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div:nth-of-type(5) {
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div:nth-of-type(odd) {
+    font-style: italic;
+}
