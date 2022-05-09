@@ -1,0 +1,23 @@
+table, th {
+    border: solid 1px black;
+}
+
+table {
+    width: 50%;
+}
+
+#aside-video {
+    float: right;
+    display: block;
+    border: solid 3px red;
+    height: 200px;
+    padding-top: 150px;
+    background-image: url(images/image1.jpeg);
+    background-size: contain;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+footer p {
+    text-align: center;
+}
