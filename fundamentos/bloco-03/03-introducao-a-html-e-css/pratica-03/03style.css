@@ -34,3 +34,27 @@ li em {
 .java {
     background-color:pink;
 }
+
+.item-bonus:hover {
+    font-weight: bolder;
+}
+
+#stack:hover {
+    background-color: orange;
+}
+
+#w3s:hover {
+    background-color: green;
+}
+
+#mdn:hover {
+    background-color: black;
+}
+
+#dev:hover {
+    background-color: yellow;
+}
+
+#trybe:hover {
+    background-color: green;
+}
