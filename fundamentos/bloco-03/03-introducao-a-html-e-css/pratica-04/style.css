@@ -12,12 +12,20 @@ table {
     border: solid 3px red;
     height: 200px;
     padding-top: 150px;
-    background-image: url(images/image1.jpeg);
+    background-color: black;
     background-size: contain;
-    color: darkblue;
+    color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 footer p {
     text-align: center;
+}
+
+.indice {
+    text-decoration: none;
+    display: block;
+    color: blue;
+    margin-top: 10px;
 }
