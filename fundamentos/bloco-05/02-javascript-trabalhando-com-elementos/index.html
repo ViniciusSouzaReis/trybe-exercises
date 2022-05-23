@@ -84,6 +84,8 @@
         let createTagSection2 = document.createElement('section');
         createTagSection2.className = 'left-content';
         createTagMain.appendChild(createTagSection2);
+        createTagSection2.addEventListener('click', changeColour);
+    
 
 
         let createTagSection3 = document.createElement('section');
@@ -97,7 +99,7 @@
         sectionElement2.appendChild(createImageTag);
         let imagePath = document.querySelector('.small-image');
         imagePath.src = 'https://picsum.photos/200';
-        
+       
 
         let sectionPath3 = document.querySelector('.right-content');
         let createOlList = document.createElement('ol');
