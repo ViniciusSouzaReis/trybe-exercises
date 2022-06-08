@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @media screen and (max-width: 621px) {
+      body {
+          margin: 0 3%;
+          font-size: 20px;
+          font-family: 'Montserrat', sans-serif;
+      }
+      header p {
+          font-size: 40px;
+          font-weight: bold;
+          text-align: center;
+      }
+      h2, h1 {
+          text-align: center;
+      }
+  }
+
+  @media screen and (min-width: 622px) and (max-width: 1100px) {
+      body {
+          font-size: 40px;
+          margin: 0 4%;
+          font-family: 'Montserrat', sans-serif;
+      }
+      header p {
+          font-size: 70px;
+          font-weight: bold;
+          text-align: center;
+      }
+      h2, h1 {
+          text-align: center;
+      }
+  }
+
+  @media screen and (min-width: 1101px) {
+      body {
+        font-size: 30px;
+        margin: 0 10%;
+        font-family: 'Montserrat', sans-serif;
+      }
+      header p {
+          font-size: 60px;
+          font-weight: bold;
+          text-align: center;
+      }        
+      h2, h1 {
+          text-align: center;
+      }
+  }
